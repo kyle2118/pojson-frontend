@@ -1,38 +1,52 @@
 .App {
+  font-family: Arial, sans-serif;
   text-align: center;
+  margin-top: 50px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+form {
+  display: inline-block;
+  text-align: left;
+  margin: 0 auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+label {
+  display: block;
+  margin: 10px 0 5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  font-size: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #28a745;
   color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  font-size: 24px;
 }
 
-.App-link {
-  color: #61dafb;
+button:hover {
+  background-color: #218838;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p {
+  color: red;
+}
+
+.json-content {
+  font-size: 20px;
+}
+.package-name {
+  font-size: 20px;
 }
